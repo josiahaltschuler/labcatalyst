@@ -39,9 +39,19 @@
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
-				          <li><a href="about-us.html">About</a></li>
-				          <li><a href="price.html">Pricing</a></li>
+				          <li class="menu-active"><a href="index.html">Home</a></li>
+				          <li><a href="about-us.html">About Us</a></li>
+				          <li><a href="category.html">Category</a></li>
+				          <li><a href="price.html">Price</a></li>
+				          <li><a href="blog-home.html">Blog</a></li>
 				          <li><a href="contact.html">Contact</a></li>
+				          <li class="menu-has-children"><a href="">Pages</a>
+				            <ul>
+								<li><a href="elements.html">elements</a></li>
+								<li><a href="search.html">search</a></li>
+								<li><a href="single.html">single</a></li>
+				            </ul>
+				          </li>
 				          <li><a class="ticker-btn" href="#">Signup</a></li>
 				          <li><a class="ticker-btn" href="#">Login</a></li>				          				          
 				        </ul>
@@ -55,63 +65,23 @@
 			<section class="banner-area relative" id="home">	
 				<div class="overlay overlay-bg"></div>
 				<div class="container">
-					<div class="row fullscreen d-flex align-items-center justify-content-center">
-						<div class="banner-content col-lg-12">
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-                <span>Lab Catalyst</span> is the leading job board for scientists to find faculty, post-doc and staff research jobs.
-              </h1>	
-							<form action="search.html" class="serach-form-area">
-								<div class="row justify-content-center form-wrap">
-									<div class="col-lg-4 form-cols">
-										<input type="text" class="form-control" name="search" placeholder="what are you looging for?">
-									</div>
-									<div class="col-lg-3 form-cols">
-										<div class="default-select" id="default-selects"">
-											<select>
-												<option value="1">Select area</option>
-												<option value="2">Dhaka</option>
-												<option value="3">Rajshahi</option>
-												<option value="4">Barishal</option>
-												<option value="5">Noakhali</option>
-											</select>
-										</div>
-									</div>
-									<div class="col-lg-3 form-cols">
-										<div class="default-select" id="default-selects2">
-											<select>
-												<option value="1">All Category</option>
-												<option value="2">Medical</option>
-												<option value="3">Technology</option>
-												<option value="4">Goverment</option>
-												<option value="5">Development</option>
-											</select>
-										</div>										
-									</div>
-									<div class="col-lg-2 form-cols">
-									    <button type="button" class="btn btn-info">
-									      <span class="lnr lnr-magnifier"></span> Search
-									    </button>
-									</div>								
-								</div>
-							</form>	
-							<p class="text-white"> <span>Search by tags:</span> Tecnology, Business, Consulting, IT Company, Design, Development</p>
+								Job category				
+							</h1>	
+							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="category.html"> Job category</a></p>
 						</div>											
 					</div>
 				</div>
 			</section>
 			<!-- End banner Area -->	
-
+			
 			<!-- Start post Area -->
 			<section class="post-area section-gap">
 				<div class="container">
 					<div class="row justify-content-center d-flex">
 						<div class="col-lg-8 post-list">
-							<ul class="cat-list">
-								<li><a href="#">Faculty</a></li>
-								<li><a href="#">Post-doc</a></li>
-								<li><a href="#">Staff</a></li>
-								<li><a href="#">Intern</a></li>
-							</ul>
 							<div class="single-post d-flex flex-row">
 								<div class="thumb">
 									<img src="img/post.png" alt="">
@@ -350,8 +320,6 @@
 									<p class="address"><span class="lnr lnr-database"></span> 15k - 25k</p>
 								</div>
 							</div>	
-							
-							<a class="text-uppercase loadmore-btn mx-auto d-block" href="category.html">Load More job Posts</a>
 
 						</div>
 						<div class="col-lg-4 sidebar">
@@ -479,10 +447,9 @@
 				</div>	
 			</section>
 			<!-- End post Area -->
-				
 
 			<!-- Start callto-action Area -->
-			<section class="callto-action-area section-gap" id="join">
+			<section class="callto-action-area section-gap">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content col-lg-9">
@@ -496,50 +463,7 @@
 					</div>	
 				</div>	
 			</section>
-			<!-- End calto-action Area -->
-
-			<!-- Start download Area -->
-			<section class="download-area section-gap" id="app">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6 download-left">
-							<img class="img-fluid" src="img/d1.png" alt="">
-						</div>
-						<div class="col-lg-6 download-right">
-							<h1>Download the <br>
-							Job Listing App Today!</h1>
-							<p class="subs">
-								It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological advancement are concerned.
-							</p>
-							<div class="d-flex flex-row">
-								<div class="buttons">
-									<i class="fa fa-apple" aria-hidden="true"></i>
-									<div class="desc">
-										<a href="#">
-											<p>
-												<span>Available</span> <br>
-												on App Store
-											</p>
-										</a>
-									</div>
-								</div>
-								<div class="buttons">
-									<i class="fa fa-android" aria-hidden="true"></i>
-									<div class="desc">
-										<a href="#">
-											<p>
-												<span>Available</span> <br>
-												on Play Store
-											</p>
-										</a>
-									</div>
-								</div>									
-							</div>						
-						</div>
-					</div>
-				</div>	
-			</section>
-			<!-- End download Area -->
+			<!-- End calto-action Area -->			
 		
 			<!-- start footer Area -->		
 			<footer class="footer-area section-gap">
