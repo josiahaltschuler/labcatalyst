@@ -45,6 +45,18 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 	display: block;
 }
 
+article {
+	padding: 30px 0;
+}
+
+article:first-of-type {
+	padding-top: 0;
+}
+
+article.job {
+	border-bottom: 1px solid #cecece;
+}
+
 article::before, article::after {
 	content: "";
 	display: table;
@@ -393,20 +405,21 @@ big {
 	padding-right: 0;
 }
 
-@media screen and (max-width: 600px) {
-	.column {
-		float: none;
-		width: 100%;
-		padding: 0;
-	}
-}
-
 .column.jobs {
 	width: 70%;
+	padding-right: 40px;
 }
 
 .column.post-job {
 	width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+	.column, .column.jobs, .column.post-job {
+		float: none;
+		width: 100%;
+		padding: 0;
+	}
 }
 
 
@@ -618,3 +631,17 @@ nav a:hover {
 .clear:after, .entry-content:after, .comment-content:after, header:after, .site-content:after, footer:after {
 	clear: both;
 }
+
+
+.title-company {
+	float: left;
+	clear: none;
+	display: inline;
+}
+
+.location-date {
+	float: right;
+	clear: none;
+	display: inline;
+}
+
