@@ -280,7 +280,7 @@ h1.intro a {
 	font-family: "Montserrat", sans-serif;
 	font-size: 35px;
 	/* line-height: 1; */
-	//color: #de2500;
+	color: #de2500;
 	text-decoration: none;
 	transition: all 0.5s ease 0s;
 }
