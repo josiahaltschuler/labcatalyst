@@ -494,6 +494,18 @@ li>ul, li>ol {
 	margin-left: 1.5em;
 }
 
+.home img {
+	width: 50%;
+	float: left;
+	margin: 0 20px 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+	.home img {
+		width: 100%;
+	}
+}
+
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
